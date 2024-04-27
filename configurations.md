@@ -489,7 +489,7 @@ set firewall name FROM-DMZ-TO-OUTSIDE rule 41 description "Allow access to serve
 set firewall name FROM-DMZ-TO-OUTSIDE rule 41 action accept\
 set firewall name FROM-DMZ-TO-OUTSIDE rule 41 protocol tcp\
 set firewall name FROM-DMZ-TO-OUTSIDE rule 41 destination port 80\
-set firewall name FROM-DMZ-TO-OUTSIDE rule 41 source address 200.2.2.100/32\
+set firewall name FROM-DMZ-TO-OUTSIDE rule 41 destination address 200.2.2.100/32\
 set firewall name TO-DMZ rule 41 description "Accept Established-Related Connections"\
 set firewall name TO-DMZ rule 41 action accept\
 set firewall name TO-DMZ rule 41 state established enable\
@@ -499,7 +499,7 @@ set firewall name FROM-DMZ-TO-OUTSIDE rule 42 description "Allow access to serve
 set firewall name FROM-DMZ-TO-OUTSIDE rule 42 action accept\
 set firewall name FROM-DMZ-TO-OUTSIDE rule 42 protocol tcp\
 set firewall name FROM-DMZ-TO-OUTSIDE rule 42 destination port 443\
-set firewall name FROM-DMZ-TO-OUTSIDE rule 42 source address 200.2.2.100/32\
+set firewall name FROM-DMZ-TO-OUTSIDE rule 42 destination address 200.2.2.100/32\
 set firewall name TO-DMZ rule 42 description "Accept Established-Related Connections"\
 set firewall name TO-DMZ rule 42 action accept\
 set firewall name TO-DMZ rule 42 state established enable\
@@ -509,7 +509,7 @@ set firewall name FROM-DMZ-TO-OUTSIDE rule 43 description "Allow access to serve
 set firewall name FROM-DMZ-TO-OUTSIDE rule 43 action accept\
 set firewall name FROM-DMZ-TO-OUTSIDE rule 43 protocol tcp\
 set firewall name FROM-DMZ-TO-OUTSIDE rule 43 destination port 53\
-set firewall name FROM-DMZ-TO-OUTSIDE rule 43 source address 200.2.2.100/32\
+set firewall name FROM-DMZ-TO-OUTSIDE rule 43 destination address 200.2.2.100/32\
 set firewall name TO-DMZ rule 43 description "Accept Established-Related Connections"\
 set firewall name TO-DMZ rule 43 action accept\
 set firewall name TO-DMZ rule 43 state established enable\
@@ -519,7 +519,7 @@ set firewall name FROM-DMZ-TO-OUTSIDE rule 44 description "Allow access to serve
 set firewall name FROM-DMZ-TO-OUTSIDE rule 44 action accept\
 set firewall name FROM-DMZ-TO-OUTSIDE rule 44 protocol tcp\
 set firewall name FROM-DMZ-TO-OUTSIDE rule 44 destination port 465\
-set firewall name FROM-DMZ-TO-OUTSIDE rule 44 source address 200.2.2.100/32\
+set firewall name FROM-DMZ-TO-OUTSIDE rule 44 destination address 200.2.2.100/32\
 set firewall name TO-DMZ rule 44 description "Accept Established-Related Connections"\
 set firewall name TO-DMZ rule 44 action accept\
 set firewall name TO-DMZ rule 44 state established enable\
@@ -529,7 +529,7 @@ set firewall name FROM-DMZ-TO-OUTSIDE rule 45 description "Allow access to serve
 set firewall name FROM-DMZ-TO-OUTSIDE rule 45 action accept\
 set firewall name FROM-DMZ-TO-OUTSIDE rule 45 protocol tcp\
 set firewall name FROM-DMZ-TO-OUTSIDE rule 45 destination port 993\
-set firewall name FROM-DMZ-TO-OUTSIDE rule 45 source address 200.2.2.100/32\
+set firewall name FROM-DMZ-TO-OUTSIDE rule 45 destination address 200.2.2.100/32\
 set firewall name TO-DMZ rule 45 description "Accept Established-Related Connections"\
 set firewall name TO-DMZ rule 45 action accept\
 set firewall name TO-DMZ rule 45 state established enable\
